@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!-- custom js file link  -->
+   <script src="js/script.js" defer></script>
+
+</head>
+
+
+
+<header>
+   <nav class="navbar">
+       <div class="logo">
+           <img src="../images/logo.png" alt="GreenGuide" class="logo-img">
+           <span class="logo-text">GreenGuide</span>
+       </div>
+       <div class="barra-de-busca">
+           <input type="text" placeholder="Pesquisar..." class="search-input">
+           <button type="submit" class="search-button"><img src="../images/lupa.png" alt="Search"></button>
+       </div>
+
+       <div class="avaliar">
+         <a href="views/AvaliPage.html"><img src="../images/Estrelar.png" alt="Perfil"
+                 class="profile-img"></a>
+         <span class="texto-avaliar">Nos avalie</span>
+     </div>
+
+       <div class="perfil">
+           <a href="MiguelMoreira/Apresentação_Perfil/index.html"><img src="../images/LogoConta.png" alt="Perfil"
+                   class="profile-img"></a>
+           <span class="texto-perfil">Meu Perfil</span>
+       </div>
+   </nav>
+
+   <nav class="navbar2">
+       <ul>
+           <li><a href="#">Frutas</a></li>
+           <li><a href="#">Verduras</a></li>
+           <li><a href="#">Legumes</a></li>
+       </ul>
+   </nav>
+</header>
+
+
+
+
+
+
+<body>
+   
+<div class="container">
+
+   <h3 class="title"> HORTALIÇAS</h3>
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="images/1.png" alt="">
+         <h3>Morango</h3>
+         <div class="tipo">Tipo: Fruta</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="images/2.png" alt="">
+         <h3>Cebola</h3>
+         <div class="tipo">Tipo: Legumes</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="images/3.png" alt="">
+         <h3>Tomate</h3>
+         <div class="tipo">Tipo: Legumes</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="images/4.png" alt="">
+         <h3>Beringela</h3>
+         <div class="tipo">Tipo: Legumes</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="images/5.png" alt="">
+         <h3>Brocolis</h3>
+         <div class="tipo">Tipo: Verduras</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="images/6.png" alt="">
+         <h3>Batatas</h3>
+         <div class="tipo">Tipo: Legumes</div>
+      </div>
+
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="images/1.png" alt="">
+      <h3>Morangos Orgânicos</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Ótimo pra saúde</p>
+     
+      <div class="buttons">
+         <a href="#" class="buy">Saber +</a>
+         <a href="#" class="cart">adicionar a lista</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="images/2.png" alt="">
+      <h3>Cebolas</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      
+      <div class="buttons">
+         <a href="#" class="buy">Saber +</a>
+         <a href="#" class="cart">Adicionar a lista</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="images/3.png" alt="">
+      <h3>Tomates</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      
+      <div class="buttons">
+         <a href="#" class="buy">Saber +</a>
+         <a href="#" class="cart">Adicionar a lista</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="images/4.png" alt="">
+      <h3>Beringela</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      
+      <div class="buttons">
+         <a href="#" class="buy">Saber +</a>
+         <a href="#" class="cart">Adicionar a lista</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="images/5.png" alt="">
+      <h3>Brocolis</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      
+      <div class="buttons">
+         <a href="#" class="buy">Saber +</a>
+         <a href="#" class="cart">Adicionar a Lista</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="images/6.png" alt="">
+      <h3>batatas</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 9 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      
+      <div class="buttons">
+         <a href="#" class="buy">Saber +</a>
+         <a href="#" class="cart">Adicionar a Lista</a>
+      </div>
+   </div>
+
+</div>
+
+</body>
+
+
+
+
+<footer>
+   <img src="images/logo.png" alt="LogoGreenGuide">
+   <h2 style="font-weight: bold;">GREENGUIDE</h2>
+  <div>
+      <a href="#">Homes</a>
+      <a href="#">Contact</a>
+      <a href="#">About Us</a>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

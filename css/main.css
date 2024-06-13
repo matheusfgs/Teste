@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: rgb(205, 240, 194) ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.navbar {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+.container {
+    text-align: center;
+    background-color: #ffffff7e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+}
+
+h1 {
+    color: green;
+}
+
+input[type="file"] {
+    margin: 15px 0;
+}
+
+#preview {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="range"] {
+    width: 80%;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00FF7F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(16, 133, 41);
+}
+
+.container{
+    background-color: orange;
+    color: rgb(18, 20, 20);
+}
+
+#ratingValue {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+h2{
+    color:white;
+}
+
+#rating{
+
+color: #00FF7F;
+
+}
+
+
+
+
+#botaoFixo {
+    position: fixed; /* Define a posição fixa */
+    top: 20px; /* Define a distância do topo da tela */
+    left: 20px; /* Define a distância da esquerda da tela */
+    padding: 10px 20px; /* Adiciona preenchimento ao botão para torná-lo mais visível */
+    background-color: #00FF7F; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: medium; /* Remove a borda do botão */
+    border-width: 15px;
+    border-bottom: #fff;
+    border-radius: 5px; /* Adiciona cantos arredondados ao botão */
+    cursor: pointer; /* Altera o cursor ao passar por cima do botão */
+  }
+
+#botaoFixo:hover {
+    background-color: rgb(16, 133, 41);
+}
